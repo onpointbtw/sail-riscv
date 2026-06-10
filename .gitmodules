@@ -1,0 +1,3 @@
+[submodule "pydrofoil"]
+	path = pydrofoil
+	url = git@github.com:onpointbtw/pydrofoil.git
