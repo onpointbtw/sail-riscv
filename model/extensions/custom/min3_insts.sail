@@ -1,4 +1,4 @@
-union clause ast = MIN3 : (regidx, regidx, regidx)
+union clause instruction = MIN3 : (regidx, regidx, regidx)
 
 /* R-Type custom-0 encoding:
    funct7 = 0000000
@@ -6,7 +6,7 @@ union clause ast = MIN3 : (regidx, regidx, regidx)
    opcode = 0001011
    https://docs.riscv.org/reference/isa/unpriv/rv-32-64g.html
  */
-mapping clause encdec = MIN3(rs2, rs1, rd) <-> 0b0000000 @ rs2 @ rs1 @ 0b000 @ rd @ 0b0001011
+mapping clause encdec = MIN3(rs2, rs1, rd) <-> 0b0000000 @ encdec_reg(rs2) @ encdec_reg(rs1) @ 0b000 @ encdec_reg(rd) @ 0b0001011
 
 function clause execute (MIN3(rs2, rs1, rd)) = {
     let rs1_val = X(rs1);

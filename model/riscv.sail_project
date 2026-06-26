@@ -104,6 +104,12 @@ extensions {
     }
   }
 
+  Custom {
+    requires core, sys, I
+
+    files extensions/custom/min3_insts.sail
+  }
+
   A {
     A_types {
       files extensions/A/aext_types.sail
