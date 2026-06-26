@@ -1,0 +1,4 @@
+session "Sail-Rv64d" = "Sail" +
+  options [document = false]
+  theories
+    "Rv64d_lemmas"

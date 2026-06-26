@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG -Wl,--no-undefined CMakeFiles/unit_tests.dir/main_unit_tests.cpp.o -o unit_tests  ../../c_emulator/libriscv_model.a ../../dependencies/softfloat/libsoftfloat.a ../../sail_runtime/libsail_runtime.a /usr/lib/x86_64-linux-gnu/libgmp.so 

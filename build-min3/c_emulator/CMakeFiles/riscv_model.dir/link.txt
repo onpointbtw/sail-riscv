@@ -1,0 +1,2 @@
+/usr/bin/ar qc libriscv_model.a CMakeFiles/riscv_model.dir/elf_loader.cpp.o CMakeFiles/riscv_model.dir/riscv_callbacks_if.cpp.o CMakeFiles/riscv_model.dir/riscv_platform_if.cpp.o CMakeFiles/riscv_model.dir/riscv_model_impl.cpp.o CMakeFiles/riscv_model.dir/riscv_softfloat.cpp.o CMakeFiles/riscv_model.dir/config_utils.cpp.o CMakeFiles/riscv_model.dir/file_utils.cpp.o CMakeFiles/riscv_model.dir/symbol_table.cpp.o CMakeFiles/riscv_model.dir/sail_riscv_version.cpp.o CMakeFiles/riscv_model.dir/__/sail_riscv_model.cpp.o
+/usr/bin/ranlib libriscv_model.a

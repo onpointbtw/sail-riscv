@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=/usr/bin/cmake;-P;/home/vogtb/theorem_stuff/sail-riscv/build-min3/_deps/cli11_hpp-subbuild/cli11_hpp-populate-prefix/src/cli11_hpp-populate-stamp/download-cli11_hpp-populate.cmake;COMMAND;/usr/bin/cmake;-P;/home/vogtb/theorem_stuff/sail-riscv/build-min3/_deps/cli11_hpp-subbuild/cli11_hpp-populate-prefix/src/cli11_hpp-populate-stamp/verify-cli11_hpp-populate.cmake
+source_dir=/home/vogtb/theorem_stuff/sail-riscv/build-min3/_deps/cli11_hpp-src
+work_dir=/home/vogtb/theorem_stuff/sail-riscv/build-min3/_deps
+url(s)=https://github.com/CLIUtils/CLI11/releases/download/v2.6.2/CLI11.hpp
+hash=SHA256=227a16fe5f9f8ada80c3c409492475536f597e7bd83a6c26eacc3c8c149a9295
+no_extract=YES
+
