@@ -13,5 +13,6 @@ z3_problems
 # CMake build directories used by CLion.
 /cmake-build-*
 /build-*
+output_*_build*.txt
 # z3 cache
 sail_smt_cache
