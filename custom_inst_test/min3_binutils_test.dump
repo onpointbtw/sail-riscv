@@ -1,0 +1,26 @@
+
+min3_binutils_test.elf:     file format elf64-littleriscv
+
+
+Disassembly of section .text.init:
+
+0000000080000000 <_start>:
+    80000000:	4329                	li	t1,10
+    80000002:	438d                	li	t2,3
+    80000004:	0073028b          	min3	t0,t1,t2
+    80000008:	450d                	li	a0,3
+    8000000a:	00a28a63          	beq	t0,a0,8000001e <pass>
+
+000000008000000e <fail>:
+    8000000e:	00001317          	auipc	t1,0x1
+    80000012:	ff230313          	addi	t1,t1,-14 # 80001000 <tohost>
+    80000016:	428d                	li	t0,3
+    80000018:	00533023          	sd	t0,0(t1)
+    8000001c:	bfcd                	j	8000000e <fail>
+
+000000008000001e <pass>:
+    8000001e:	00001317          	auipc	t1,0x1
+    80000022:	fe230313          	addi	t1,t1,-30 # 80001000 <tohost>
+    80000026:	4285                	li	t0,1
+    80000028:	00533023          	sd	t0,0(t1)
+    8000002c:	bfcd                	j	8000001e <pass>
