@@ -1,0 +1,9 @@
+name = "min3proofs"
+defaultTargets = ["Min3Proofs"]
+
+[[require]]
+name = "Lean_RV64D"
+path = "../build-min3/model/Lean_RV64D"
+
+[[lean_lib]]
+name = "Min3Proofs"

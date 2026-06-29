@@ -1,0 +1,4 @@
+grep -rn "get?_insert\|getElem?_insert\|insert.*self" \
+  ~/.elan/toolchains/*/lib/lean/library/ \
+  build-min3/model/Lean_RV64D/.lake/packages/*/  2>/dev/null \
+  | grep -i "theorem\|@\[simp" | grep -i "ExtDHashMap\|DHashMap" | head
