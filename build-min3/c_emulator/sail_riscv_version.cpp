@@ -7,7 +7,7 @@ std::string_view release_version() {
 }
 
 std::string_view git_version() {
-  return "2026-06-22-b5a2182-13-g718c6c55";
+  return "2026-06-22-b5a2182-14-ga1dec03f-dirty";
 }
 
 std::string_view sail_version() {

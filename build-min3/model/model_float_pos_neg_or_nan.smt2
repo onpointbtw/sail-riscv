@@ -1,0 +1,8 @@
+(declare-datatypes ((Unit 0)) (((unit))))
+(declare-datatypes ((Bits 0)) (((Bits (len (_ BitVec 8)) (contents (_ BitVec 64))))))
+(declare-datatypes ((Zfloat_bits 0)) (((Zfloat_bits (Zfloat_bits_zexp Bits) (Zfloat_bits_zmantissa Bits) (Zfloat_bits_zsign (_ BitVec 1))))))
+(declare-datatypes ((Zexception 0)) (((z__dummy_exnz3 (unz__dummy_exnz3 Unit)))))
+(declare-const zz41011/1 (_ BitVec 16))
+(define-const zz41012/2 (_ BitVec 16) zz41011/1)
+(assert (= (= ((_ extract 15 15) zz41012/2) #b0) (= ((_ extract 15 15) zz41012/2) #b1)))
+(check-sat)
