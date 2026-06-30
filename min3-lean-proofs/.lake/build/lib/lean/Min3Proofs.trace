@@ -16,7 +16,7 @@
       ["imports",
        [["Min3Proofs.Correctness transitive imports (legacy)",
          "adfb1c11a1d376fa"],
-        ["Min3Proofs.Correctness:importAllArts", "4354b31db5e613a1"]]]]],
+        ["Min3Proofs.Correctness:importAllArts", "52a2fba9f2ae1093"]]]]],
     ["libs",
      [["import dynlibs", "00000000000006bb"],
       ["package external libraries", "00000000000006bb"],
@@ -31,4 +31,4 @@
   ["Module.name: Min3Proofs", "aadc0a987a2bf7ba"],
   ["Package.id?: (some min3proofs)", "1b86bd55cd313577"],
   ["Module.leanArgs: #[]", "00000000000006bb"]],
- "depHash": "63811f7a591b6b30"}
+ "depHash": "c729a82572223c2a"}

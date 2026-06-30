@@ -1,9 +1,9 @@
 {"synthetic": false,
  "schemaVersion": "2025-09-10",
  "outputs":
- {"o": ["98f5972a422b833d.olean"],
-  "i": "ac90446c3427cf01.ilean",
-  "c": "82526e6e557c10c8.c"},
+ {"o": ["46b2faa6a5a4cfbf.olean"],
+  "i": "2796d31380b499ab.ilean",
+  "c": "93703f42155eac7e.c"},
  "log":
  [{"message":
    ".> LEAN_PATH=/home/vogtb/theorem_stuff/sail-riscv/min3-lean-proofs/.lake/packages/Sail/.lake/build/lib/lean:/home/vogtb/theorem_stuff/sail-riscv/build-min3/model/Lean_RV64D/.lake/build/lib/lean:/home/vogtb/theorem_stuff/sail-riscv/min3-lean-proofs/.lake/build/lib/lean /home/vogtb/.elan/toolchains/leanprover--lean4---v4.29.0/bin/lean /home/vogtb/theorem_stuff/sail-riscv/min3-lean-proofs/Min3Proofs/Correctness.lean -o /home/vogtb/theorem_stuff/sail-riscv/min3-lean-proofs/.lake/build/lib/lean/Min3Proofs/Correctness.olean -i /home/vogtb/theorem_stuff/sail-riscv/min3-lean-proofs/.lake/build/lib/lean/Min3Proofs/Correctness.ilean -c /home/vogtb/theorem_stuff/sail-riscv/min3-lean-proofs/.lake/build/ir/Min3Proofs/Correctness.c --setup /home/vogtb/theorem_stuff/sail-riscv/min3-lean-proofs/.lake/build/ir/Min3Proofs/Correctness.setup.json --json",
@@ -16,9 +16,7 @@
    "level": "info"},
   {"message":
    "Min3Proofs/Correctness.lean:11:0: wX_bits : regidx → BitVec 64 → SailM Unit",
-   "level": "info"},
-  {"message": "Min3Proofs/Correctness.lean:31:8: declaration uses `sorry`",
-   "level": "warning"}],
+   "level": "info"}],
  "inputs":
  [["Min3Proofs.Correctness:deps",
    [["deps",
@@ -35,10 +33,10 @@
   ["Lean 4.29.0, commit 98dc76e3c0a9b856c9b98726b713fb04fab16740",
    "60bb08ef22408c8a"],
   ["/home/vogtb/theorem_stuff/sail-riscv/min3-lean-proofs/Min3Proofs/Correctness.lean",
-   "2fcfa457589dfddd"],
+   "c486692aa70b3874"],
   ["options", "00000000000006bb"],
   ["isModule: false", "feefd2a0d3a1847e"],
   ["Module.name: Min3Proofs.Correctness", "09922895975fda46"],
   ["Package.id?: (some min3proofs)", "1b86bd55cd313577"],
   ["Module.leanArgs: #[]", "00000000000006bb"]],
- "depHash": "a191ff17e768b1ee"}
+ "depHash": "969684e9b5f461f6"}
